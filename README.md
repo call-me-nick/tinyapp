@@ -1,6 +1,6 @@
 # H3 This is a readme for starting a webpage in Django
 
-Prerequisites:
+**Prerequisites:**
 Pyenv
 Python
 Virtualenv
@@ -51,4 +51,3 @@ urlpatterns = [
 Use CTRL + c in the terminal to exit
 
 **For more information, use:** [this link](https://djangocentral.com/create-a-hello-world-django-application)
-# tinyapp
