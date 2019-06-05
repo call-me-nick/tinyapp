@@ -1,4 +1,4 @@
-# H3 This is a readme for starting a webpage in Django
+# Starting a Webpage in Django
 
 **Prerequisites:**
 
@@ -25,9 +25,9 @@ python manage.py startapp my_app
 
 1. Using the text editor of choice, add the following to the views.py file:
 
-from django.http import HttpResponse
+```from django.http import HttpResponse
 
-```def index(request):
+def index(request):
     return HttpResponse('Hello, World!')
 ```
 
@@ -45,7 +45,7 @@ urlpatterns = [
 ]
 ```
 
-## H5 Running Webpage
+## Running Webpage
 
 1. Use: python manage.py runserver
 
