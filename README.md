@@ -1,11 +1,12 @@
 # H3 This is a readme for starting a webpage in Django
 
 **Prerequisites:**
-Pyenv
-Python
-Virtualenv
-Django
-Text editor of choice
+
+* Pyenv
+* Python
+* Virtualenv
+* Django
+* Text editor of choice
 
 1. Start your virtual environment
 
@@ -24,15 +25,15 @@ python manage.py startapp my_app
 
 1. Using the text editor of choice, add the following to the views.py file:
 
-........
 from django.http import HttpResponse
 
-def index(request):
+```def index(request):
     return HttpResponse('Hello, World!')
+```
 
 Next, cd out of the my_app folder and open the urls.py file and change it so it looks like the following:
 
-from django.contrib import admin
+```from django.contrib import admin
 from django.urls import path
     # imported views
 from my_app import views
@@ -42,7 +43,9 @@ urlpatterns = [
     # configured the url
     path('',views.index, name="homepage")
 ]
-........
+```
+
+## H5 Running Webpage
 
 1. Use: python manage.py runserver
 
