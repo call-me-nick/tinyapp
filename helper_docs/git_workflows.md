@@ -33,3 +33,10 @@ In addition, some of the more common 'gotchas' and 'Topics Of Intereeessst' will
     * `git amend`? or `git commit -m <blah>` as above.
     * `git push`
     * Ask for another review.
+    
+**Other Notes**
+
+1. Merging
+    * The only time you will ever merge someone else's code is in the following situations:
+        * You are given permission AND there are no coordination issues
+        * Someone is committing to your repository that does not have the ability to commit AND you have carefully reviewed their code
