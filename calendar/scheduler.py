@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 from datetime import date
 from datetime import timedelta
 today = date.today()
@@ -14,6 +15,8 @@ def printSchedule(x):
         else: print("## " + date + " - " + day)
         today -= timedelta(days = 1)
                 
-numDays = 10
-today += timedelta(days = numDays-1)
+parser = argparse.ArgumentParser()
+parser.add_argument("integer", help = "diplay x days", type = int)
+arg = parser.parse_args()
+today += timedelta(days = arg-1)
 printSchedule(numDays)
