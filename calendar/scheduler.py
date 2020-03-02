@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 from datetime import date
 from datetime import timedelta
 today = date.today()
@@ -7,13 +6,14 @@ today = date.today()
 def printSchedule(x):
     global today
     for i in range(0, x):
+        date = today.strftime("%Y.%m.%d")
+        day = today.strftime("%a")
         if(today.weekday() < 5):
-            print(today.strftime("%Y.%m.%d-%a"))
-            print("today:\nyesterday:\nblockers:\n")
-        else: print(today.strftime("%Y.%m.%d-%a") + "\n")
+            print("## " + date + " - " + day)
+            print("today:\nyesterday:\nblockers:\nlong-term:")
+        else: print("## " + date + " - " + day)
         today -= timedelta(days = 1)
                 
-print("Days to display: ")
-numDays = int(input())
+numDays = 10
 today += timedelta(days = numDays-1)
 printSchedule(numDays)
