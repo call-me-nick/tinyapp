@@ -1,0 +1,186 @@
+ndr@neptune:~/Desktop/dev/git/tinyapp/calendar$ ./scheduler_NDR.py  --help
+usage: scheduler_NDR.py [-h] [--days DAYS]
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --days DAYS  Days to display. (default: 40)
+ndr@neptune:~/Desktop/dev/git/tinyapp/calendar$ ./scheduler_NDR.py  --days 6
+## 2020.03.08 - Sun
+## 2020.03.07 - Sat
+## 2020.03.06 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.05 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.04 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.03 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
+ndr@neptune:~/Desktop/dev/git/tinyapp/calendar$ ./scheduler_NDR.py 
+## 2020.04.11 - Sat
+## 2020.04.10 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.09 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.08 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.07 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.06 - Mon
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.05 - Sun
+## 2020.04.04 - Sat
+## 2020.04.03 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.02 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.04.01 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.31 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.30 - Mon
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.29 - Sun
+## 2020.03.28 - Sat
+## 2020.03.27 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.26 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.25 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.24 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.23 - Mon
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.22 - Sun
+## 2020.03.21 - Sat
+## 2020.03.20 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.19 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.18 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.17 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.16 - Mon
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.15 - Sun
+## 2020.03.14 - Sat
+## 2020.03.13 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.12 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.11 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.10 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.09 - Mon
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.08 - Sun
+## 2020.03.07 - Sat
+## 2020.03.06 - Fri
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.05 - Thu
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.04 - Wed
+  yesterday:
+  blockers:
+  today:
+  long-term:
+## 2020.03.03 - Tue
+  yesterday:
+  blockers:
+  today:
+  long-term:
